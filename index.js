@@ -18,6 +18,8 @@ class NatsProvider {
         this.subscribeData = this.subscribeData.bind(this);
         this.publishEnd = this.publishEnd.bind(this);
         this.subscribeEnd = this.subscribeEnd.bind(this);
+        this.publishStart = this.publishStart.bind(this);
+        this.subscribeStart = this.subscribeStart.bind(this);
     }
 
     publishData(chunk) {
