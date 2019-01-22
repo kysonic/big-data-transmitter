@@ -1,0 +1,13 @@
+{
+  "name": "big-data-transport",
+  "version": "0.0.1",
+  "description": "A way to transfer big data between two processes",
+  "main": "index.js",
+  "author": "Anton Miroshnichenko",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "big-json": "^2.0.2",
+    "nats": "^1.2.2"
+  }
+}
